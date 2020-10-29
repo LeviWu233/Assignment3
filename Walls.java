@@ -11,7 +11,6 @@ public class Walls{
 	public static void main(String[] args){
 		//set colors
 
-		//set the window
 		DrawingPanel panel = new DrawingPanel(650, 400);
 		Graphics g = panel.getGraphics();
 		panel.setBackground(Color.GRAY);
@@ -25,7 +24,7 @@ public class Walls{
 	public static void rowA(Graphics g){
 		for(int i=0;i<4;i++){
 			g.setColor(Color.BLACK);
-			g.drawRect(400+i*35,20+i*35,35);
+			g.drawRect(400+i*35,20+i*35,35,35);
 		}
 	}
 	public static void rowB(Graphics g){
